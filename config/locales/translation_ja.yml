@@ -1,0 +1,19 @@
+ja:
+  books: 本一覧
+  newbooks: 新しい本を登録する
+  editingbook: 本の内容を編集する
+  newbook: 新しい本を登録する
+  show: 詳細
+  edit: 編集
+  destroy: 削除
+  back: 戻る
+  activerecord:
+    models:
+      book: 本  #g
+
+    attributes:
+      book:
+        author: 著者  #g
+        memo: メモ  #g
+        picture: 写真  #g
+        title: 題名  #g
