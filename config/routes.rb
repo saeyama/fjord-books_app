@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/index'
+  get 'users/show'
   root 'homes#index'
   devise_for :users, :controllers => {
     :sessions      => "users/sessions",
