@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
   get 'users/index'
   get 'users/show'
-  root 'homes#index'
+  root 'books#index'
+  
   devise_for :users, :controllers => {
     :sessions      => "users/sessions",
     :registrations => "users/registrations",
     :passwords     => "users/passwords" 
   }
+  
+  devise_scope :user do
+    get '/users/sign_out' => 'devise/sessions#destroy'
+  end
+
   resources :users, :only => [:index, :show]
   # devise_for :users
   resources :books

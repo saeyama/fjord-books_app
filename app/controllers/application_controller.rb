@@ -1,4 +1,12 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::Base
+  before_action :configure_permitted_parameters, if: :devise_controller?
+
+  protected
+
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.permit(:sign_up, keys: [ :email, :encrypted_password, :name, :postal_code, :prefecture_code, :city, :other_address, :profile ])
+    devise_parameter_sanitizer.permit(:sign_in, keys: [ :name, :encrypted_password])
+  end
 end
