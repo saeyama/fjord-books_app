@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'users/index'
   get 'users/show'
-  root 'books#index'
+  root 'homes#index'
   
   devise_for :users, :controllers => {
     :sessions      => "users/sessions",

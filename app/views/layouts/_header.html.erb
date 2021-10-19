@@ -1,9 +1,11 @@
 <header>
   <% if user_signed_in? %>
-    <%= link_to "アカウント編集", edit_user_registration_path %>
-    <%= link_to "ログアウト", destroy_user_session_path %>
+    <%= link_to t(:my_page), user_path(id: current_user.id) %>
+    <%= link_to t(:book_index), books_path %>
+    <%= link_to t(:user_index), users_path %>
+    <%= link_to t(:log_out), destroy_user_session_path %>
   <% else %>
-    <%= link_to "新規登録", new_user_registration_path %>
-    <%= link_to "ログイン", new_user_session_path %>
+    <%= link_to t(:new_sign_up), new_user_registration_path %>
+    <%= link_to t(:log_in), new_user_session_path %>
   <% end %>
 </header>

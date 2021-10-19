@@ -1,12 +1,6 @@
 # Additional translations at https://github.com/heartcombo/devise/wiki/I18n
 
 en:
-  log_in: "Log in"
-  log_out: "Log out"
-  new_sign_up: "Sign up"  
-  sign_up: "Sign up"
-  forgot_password: "Forgot your password?"
-  characters_minimum: "characters minimum"
   activerecord:
     attributes:
       user:

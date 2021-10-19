@@ -1,10 +1,24 @@
 ja:
   log_in: "ログイン"
   log_out: "ログアウト"
-  new_sign_up: "新規登録"  
+  new_sign_up: "新規登録"
+  home_title: "おすすめの本を登録しよう！"
+  register_immediately: "早速登録する"
   sign_up: "登録"
+  update: "更新"
+  registration_edit: "登録情報を変更する"
+  back: "戻る"
+  cancel_my_account: "アカウントを削除する"
+  cancel_my_account_button: "削除"
+  unhappy: "よろしいですか？"
+  my_page: "マイページ"
+  user_index: "ユーザ一覧"
+  book_index: "本一覧"
   forgot_password: "パスワードをお忘れですか？"
-  characters_minimum: "文字以上でご登録下さい。"
+  characters_minimum: "文字以上でご登録下さい"
+  leave_blank_if_you_don_t_want_to_change_it: "空欄のままなら変更しません。"
+  we_need_your_current_password_to_confirm_your_changes: "変更を反映するには現在のパスワードを入力してください。"
+  current_password: "変更を確認するには、現在のパスワードが必要です。"
   activerecord:
     attributes:
       user:
