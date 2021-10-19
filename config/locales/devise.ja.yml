@@ -15,10 +15,14 @@ ja:
   user_index: "ユーザ一覧"
   book_index: "本一覧"
   forgot_password: "パスワードをお忘れですか？"
+  change_password: "パスワードをお忘れですか？"
+  send: "送信"
   characters_minimum: "文字以上でご登録下さい"
   leave_blank_if_you_don_t_want_to_change_it: "空欄のままなら変更しません。"
   we_need_your_current_password_to_confirm_your_changes: "変更を反映するには現在のパスワードを入力してください。"
   current_password: "変更を確認するには、現在のパスワードが必要です。"
+  new_password: "新しいパスワードを設定する"
+  confirm_new_password: "新しいパスワードを設定する"
   activerecord:
     attributes:
       user:
