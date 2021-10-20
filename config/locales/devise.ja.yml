@@ -23,6 +23,8 @@ ja:
   current_password: "変更を確認するには、現在のパスワードが必要です。"
   new_password: "新しいパスワードを設定する"
   confirm_new_password: "新しいパスワードを設定する"
+  password_reset_description: "以下のリンクからパスワードを変更することが出来ます。"
+  change_my_password: "パスワードを変更する"
   activerecord:
     attributes:
       user:
