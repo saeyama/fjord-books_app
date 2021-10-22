@@ -8,5 +8,5 @@ class User < ApplicationRecord
 
   def avatar_extension
     ['avatar/png', 'avatar/jpg', 'avatar/jpeg']
-  end       
+  end
 end
