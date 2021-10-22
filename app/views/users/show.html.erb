@@ -1,2 +1,16 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<h1>マイページ</h1>
+
+<ul>
+  <li>お名前：<%= @user.name %></li>
+  <li>メールアドレス：<%= @user.email %></li>
+  <li>住所：
+    <%= @user.postal_code %>
+    <%= @user.prefecture_code %>
+    <%= @user.city %>
+    <%= @user.street %>
+    <%= @user.other_address %>
+  </li>
+  <li>自己紹介文：<%= @user.profile %></li>
+</ul>
+    <%= link_to "登録情報を変更する", edit_user_registration_path %>
+    
