@@ -1,0 +1,9 @@
+ja:
+  layouts:
+    header:
+      my_page: 'マイページ'
+      book_index: '本一覧'
+      user_index: 'ユーザー一覧'
+      log_out: 'ログアウト'
+      sign_up: '新規登録'
+      log_in: 'ログイン'
