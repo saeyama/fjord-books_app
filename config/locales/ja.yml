@@ -1,5 +1,10 @@
 ---
 ja:
+  books: '本一覧'
+  title: "タイトル"
+  memo: "メモ"
+  author: "著者"
+  picture: "画像"
   activerecord:
     errors:
       messages:
