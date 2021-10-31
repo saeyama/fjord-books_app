@@ -31,3 +31,6 @@
 
 en:
   hello: "Hello world"
+  views:
+    common:
+      are_you_sure: Are you sure?

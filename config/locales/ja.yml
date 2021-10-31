@@ -210,3 +210,17 @@ ja:
       long: "%Y/%m/%d %H:%M"
       short: "%m/%d %H:%M"
     pm: 午後
+  views:
+    common:
+      show: 詳細
+      edit: 編集
+      destroy: 削除
+      new: 新規作成
+      back: 戻る
+      new_book: 新しい本を登録する
+      are_you_sure: よろしいですか？
+  books:
+    index:
+      book_index: 本一覧
+    edit:
+      editing_book: 本の登録内容を編集する
