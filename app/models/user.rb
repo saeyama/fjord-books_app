@@ -7,6 +7,7 @@ class User < ApplicationRecord
   validate :avatar_extension
 
   def avatar_extension
-    ['avatar/png', 'avatar/jpg', 'avatar/jpeg']
+    extension = ['avatar/png', 'avatar/jpg', 'avatar/jpeg']
+    errors.add(:avatar, message: :extension) unless avatar.content_type.in?(extension)
   end
 end
