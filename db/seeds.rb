@@ -57,3 +57,12 @@ User.destroy_all
 end
 
 puts '初期データの投入が完了しました。' # rubocop:disable Rails/Output
+
+User.create!(
+  email: 'test1@test1.com',
+  password: '111111',
+  name: 'test1',
+  postal_code: '1111111',
+  address: '東京都1-1-1',
+  self_introduction: 'こんにちは、test1です'
+)
