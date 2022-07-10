@@ -1,0 +1,7 @@
+ja:
+  users:
+    index:
+      user_index: 'ユーザー一覧'
+    show:
+      my_page: 'マイページ'
+      change_registration_my_page: '登録情報を変更する'
